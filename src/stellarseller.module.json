@@ -1,0 +1,33 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "stellarseller",
+    "items": {
+        "includes": [
+            {
+                "name": "layout",
+                "path": "/sitecore/layout/Placeholder Settings/Project/StellarSales",
+                "scope": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/templates/Project/StellarSales",
+                "scope": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "templates",
+                "path": "/sitecore/layout/Renderings/Project/StellarSales",
+                "scope": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "contentRoot",
+                "path": "/sitecore/content/StellarSales",
+                "scope": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/Project/StellarSales",
+                "scope": "CreateUpdateAndDelete"
+            }
+        ]
+    }
+}
